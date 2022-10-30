@@ -1,4 +1,4 @@
-# make-os
+# make-os  i hope i can keep going
 
 day1
 
