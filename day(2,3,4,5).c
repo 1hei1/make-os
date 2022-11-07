@@ -16,8 +16,7 @@ void draw_mouse(int setx,int sety,int a,int b,int c,char * fontpk);
 void draw_rout(int x, int y);
 void draw_src(int x,int y,char * font,char * ads,int color,char * ads_src);
 
-/* 娭悢愰尵側偺偵丄{}偑側偔偰偄偒側傝;傪彂偔偲丄
-	懠偺僼傽僀儖偵偁傞偐傜傛傠偟偔偹丄偲偄偆堄枴偵側傞偺偱偡丅 */
+
 
 
 void HariMain(void)
@@ -223,7 +222,7 @@ for (y=0;y<16;y++){
 for(x=0;x<16;x++){
 if (mouse[y][x] == '*'){
 ads[setx+sety*320+x] = 6;}
-if (mouse[y][x] == '0'){
+if (mouse[y][x] == '0'){ /*此处只能用单引号否则不能执行判断条件*/
 ads[setx+sety*320+x] = 8;}
 if (mouse[y][x] == '.'){
 ads[setx+sety*320+x] = 6;}
@@ -269,7 +268,7 @@ void draw_rout(int x, int y) {
 			if (rout[l_y][l_x] == '0') {
 				ads[x + y * 320 + l_x] = 8;
 			}
-			if (rout[l_y][l_x] == '.') {
+			if (rout[l_y][l_x] == '.') {     /*此处只能用单引号否则不能执行判断条件*/
 				ads[x + y * 320 + l_x] = 6;
 			}
 		}y += 1;
