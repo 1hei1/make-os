@@ -1,0 +1,3 @@
+今天对draw.c进行了大规模修改，使其能够使用于不同的图层中
+增加了（drawnormal,drawnormal_src,drawnormal_font)三个函数
+对于涂层的绘制问题，分两步1.绘制图层底色2.绘制字符
