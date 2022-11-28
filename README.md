@@ -16,3 +16,8 @@ https://github.com/1hei1/make-os/blob/main/day(2%2C3%2C4%2C5).c
 经过两天挣扎终于弄明白图层绘制的精华
 
 ![image](https://user-images.githubusercontent.com/109926235/204138756-258b0e5d-8b35-4c2b-8257-09d742b73a63.png)
+
+终于完成涂层的绘制了
+
+![image](https://user-images.githubusercontent.com/109926235/204267344-59d2835e-8230-407a-8fe7-57bd1c79d83d.png)
+
