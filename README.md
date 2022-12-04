@@ -29,5 +29,9 @@ https://github.com/1hei1/make-os/blob/main/day(2%2C3%2C4%2C5).c
 
 ![image](https://user-images.githubusercontent.com/109926235/205042526-72609ab7-e4ef-4b77-9199-c212dffccff3.png)
 
+实现窗口移动，输入字符（不太流畅）
+
+![image](https://user-images.githubusercontent.com/109926235/205493204-f1510b74-e351-4d4a-ad30-e51d853da2e7.png)
+
 
 
